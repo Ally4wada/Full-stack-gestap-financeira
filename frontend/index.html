@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Importador CSV</title>
+</head>
+
+<body>
+
+  <h1>Importar CSV</h1>
+
+  <input type="file" id="fileInput">
+
+  <button onclick="enviar()">Salvar no banco</button>
+
+  <h2>Resumo</h2>
+  <p>Entradas: <span id="entrada">0</span></p>
+  <p>Saídas: <span id="saida">0</span></p>
+  <p>Saldo: <span id="saldo">0</span></p>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Descrição</th>
+        <th>Valor</th>
+        <th>Categoria</th>
+        <th>Tipo</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody id="tabela"></tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
