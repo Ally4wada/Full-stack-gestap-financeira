@@ -1,0 +1,10 @@
+{
+  "name": "gestao-financeira",
+  "version": "1.0.0",
+  "description": "App de importação CSV",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
